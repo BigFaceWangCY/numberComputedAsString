@@ -42,6 +42,7 @@
     "@babel/parser": "^7.4.3",
     "@babel/types": "^7.4.0",
     "@types/jest": "^24.0.11",
+    "@types/node": "^12.6.2",
     "babel-jest": "^24.7.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",

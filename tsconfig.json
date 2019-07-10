@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
-    "outDir": "./esnext",
+    "module": "commonjs",
+    "target": "es5",
+    "outDir": "./cjs",
     "lib": ["es6", "esnext"]
   },
   "exclude": [
