@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "outDir": "./cjs",
+    "lib": ["es6", "esnext"]
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+]
+}

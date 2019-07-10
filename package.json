@@ -1,0 +1,59 @@
+{
+  "name": "jsbignumber",
+  "version": "1.2.13",
+  "description": "Computing numbers with strings for javascript.",
+  "main": "./cjs/index.js",
+  "module": "./esnext/index.js",
+  "types": "./@types/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build:cjs": "node ./tsconfig/build.js cjs && tsc",
+    "build:es": "node ./tsconfig/build.js es && tsc",
+    "build": "npm run build:cjs && npm run build:es"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "collectCoverage": true,
+    "testRegex": "(/__tests__/.*|(\\.|/)test)\\.(js|ts)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  },
+  "files": [
+    "/lib",
+    "/exnext",
+    "/cjs",
+    "/@types"
+  ],
+  "keywords": [
+    "javascript",
+    "coputed",
+    "number",
+    "string",
+    "big",
+    "number"
+  ],
+  "author": "chengyu.wang",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/parser": "^7.4.3",
+    "@babel/types": "^7.4.0",
+    "@types/jest": "^24.0.11",
+    "babel-jest": "^24.7.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "codecov": "^3.3.0",
+    "jest": "^24.7.1",
+    "parcel-bundler": "^1.12.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigFaceWangCY/numberComputedAsString.git"
+  }
+}
