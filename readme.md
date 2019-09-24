@@ -32,7 +32,7 @@ console.log(jsbignumber.add(0.1, 0.2))
 ```
 
 
-## 4 simple API
+## 5 simple API
 
 |    api    | definition |
 | ---------- | --- |
